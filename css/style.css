@@ -1,0 +1,101 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+/* Header Section*/
+
+header{
+	width: 100%;
+	float: left;
+	background-color: #F5F9F8;
+	padding: 20px 0px;
+}
+
+.logo{
+	width: 30%;
+	float: left;
+}
+
+.menu{
+	width: 70%;
+	float: left;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav ul li{
+	display: inline-block;
+	margin: 0px 10px;
+}
+
+nav ul li a{
+	color: orange;
+	text-decoration: none;
+	font-size: 25px;
+	transition: 0.5s ease-in-out;
+}
+
+nav ul li a:hover{
+	color: green;
+}
+
+/* Banner section */
+
+.banner{
+	width: 100%;
+	float: left;
+	background: url(../img/banner.jpg)no-repeat;
+	background-size: cover;
+	padding: 20px 0px;
+}
+
+.banner-main{
+	width: 60%;
+	margin: 0 auto;
+	padding-top: 150px;
+	text-align: center;
+}
+
+.banner-main h2{
+	color: white;
+	font-size: 110px;
+	text-transform: uppercase;
+}
+
+.banner-main span{
+	border-bottom: 2px solid skyblue;
+	display: block;
+	width: 72%;
+	margin: 5px auto;
+}
+
+.banner-main p{
+	color: white;
+	margin: 10px 0;
+}
+
+.banner-btn{
+	padding: 10px 20px;
+	margin: 10% auto;
+	background: transparent;
+	border: 1px solid #4a8ebb;
+	color: white;
+	font-size: 20px;
+}
+
+.banner-icon{
+	color: white;
+	font-size: 18px;
+}
+
+.fa.fa-chevron-down{
+
+}
